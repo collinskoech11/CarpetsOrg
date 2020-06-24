@@ -1,0 +1,32 @@
+.f-product{
+	width: 100%;
+	display: inline-block;
+	height: 600px;
+	border-top:1px solid rgb(0,0,0);
+	border-bottom:1px solid rgb(0,0,0);
+	margin-top: 70px;
+}
+.f-product .product-img{
+	width:50%;
+	float: left;
+	height: 580px;
+}
+.f-product .product-img .main-img{
+	width: 100%;
+	height:430px;
+	border: 1px solid rgb(0,0,0);
+	border-top:none;
+}
+.f-product .product-img .sub-imgs{
+	width: 100%;
+	height: 150px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.f-product .product-img .sub-imgs .sub-img{
+	height: 100px;
+	width: 30%;
+	float: left;
+	margin-left: 2%;
+	border: 1px solid rgb(0,0,0);
+}
