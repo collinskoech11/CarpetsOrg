@@ -1,3 +1,4 @@
+/**f-product section**/
 .f-product{
 	width: 100%;
 	display: inline-block;
@@ -30,3 +31,89 @@
 	margin-left: 2%;
 	border: 1px solid rgb(0,0,0);
 }
+.f-product .desc{
+	float: left;
+	width: 47%;
+	margin-left: 1.5%;
+}
+.f-product .desc .title{
+	margin-top: 5%;
+	margin-left:  10%;
+	width: 80%;
+	font-size: 30px;
+	font-weight: 10px;
+}
+.f-product .desc .title h3{
+	font-weight: 5px;
+}
+.f-product .desc .review{
+	display: inline-block;
+	margin-left:  5%;
+	width: 80%;
+	margin-top: 1%;
+}
+.f-product .desc .review .rating{
+	width: 40%;
+	float: left;
+	height: 20px;
+	
+}
+.f-product .desc .review .reviews{
+	width: 40%;
+	float: left;
+	height: 20px;
+}
+.f-product .model{
+	width: 80%;
+	margin-left: 8%;
+	margin-right: 8%;
+	border-bottom: 1px solid rgb(0,0,0);
+	border-top: 1px solid rgb(0,0,0);
+	height: 50px;
+	display: inline-block;
+	padding-top: 25px;
+}
+.f-product .model .price{
+	float: left;
+}
+.f-product .model .model-name{
+	float: left;
+}
+.f-product .model .model-name input{
+	float: right;
+	height: 20px;
+	width: 80%;
+}
+.f-product .desc .desc-text{
+	width: 80%;
+	margin: 8%;
+	margin-top: 5%;
+}
+.f-product .desc .cart-btn{
+	width: 10%;
+	margin-left:15%;
+	height: 50px;
+	border-top: 1px solid rgb(0,0,0);
+}
+.f-product .desc .cart-btn button{
+	width: 150px;
+	height:35px;
+	margin-top: 10px;
+	margin-left: -40px;
+	background-color: navy;
+	border:none;
+	color: #fff;
+}
+@media (max-width: 900px){
+	.fproduct{
+		height: 1200px;
+	}
+	.f-product .product-img{
+		width: 98%;
+	}
+	.f-product .desc{
+		width: 100%;
+		margin-left: 0;
+	}
+}
+/**similar products section**/
