@@ -4,6 +4,7 @@
 	height: 150px;
 	background-color: rgb(0,0,0,0.3);
 	margin-top: 50px;
+	text-align: center;
 }
 .shopping{
 	padding-left: 40px;
@@ -23,7 +24,7 @@
 	color: gray;
 }
 .cart-header a{
-	color: rgb(0,0,0);
+	color: rgb(0,0,0,0.3);
 	text-decoration: none;	
 }
 .cart-header a:active{
