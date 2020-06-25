@@ -103,6 +103,7 @@
 	background-color: navy;
 	border:none;
 	color: #fff;
+	cursor: pointer;
 }
 @media (max-width: 900px){
 	.f-product{
@@ -204,9 +205,20 @@
 	float: left;
 }
 @media (max-width: 900px){
+	.rev-section .rev{
+		height: 250px;
+	}
 	.rev-section .rev .rev-img{
 		width: 40px;
 		height: 40px;
 		border-radius: 40px;
+	}
+	.rev-section .rev .rev-person{
+		width: 100%;
+	}
+	.rev-section .rev .rev-text{
+		width: 100%;
+		height: 170px;
+		margin-bottom: 30px;
 	}
 }

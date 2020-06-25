@@ -73,6 +73,24 @@ body{
 	margin-top: 5px;
 	color: rgb(0,0,0);
 }
+@media(max-width: 1300px){
+	.header .buttons{
+		width: 60%;
+	}
+	.header .buttons p{
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+	}
+	.header .buttons .cart img{
+		padding-left: 3px;
+		width: 25px;
+		height: 25px;
+	}
+	.header .buttons .item{
+		margin-left: 0;	
+	}
+}
 @media (max-width: 900px){
 	.header .buttons{
 		width: 60%;
