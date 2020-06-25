@@ -26,6 +26,9 @@
 	color: rgb(0,0,0);
 	text-decoration: none;	
 }
+.cart-header a:active{
+	color: rgb(0,0,0);
+}
 .cart-header p{
 	margin-top: 50px;
 	
