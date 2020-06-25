@@ -17,7 +17,7 @@ body{
 	float: left;
 	margin-left: 2%;
 	margin-right: 1%;
-	height: 800px;
+	height: 600px;
 }
 .shipping-details .shipping-details-main .shipping-heading{
 	width: 100%;
@@ -148,13 +148,13 @@ body{
 }
 .shipping-details .shipping-summary{
 	width: 34%;
-	height: 800px;
+	height: 600px;
 	border:1px solid rgb(0,0,0);
 	float: left;
 }
 @media(max-width: 700px){
 	.shipping-details{
-		height: 1600px;
+		height: 1000px;
 	}
 	.shipping-details .shipping-details-main{
 		width: 90%;
