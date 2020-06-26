@@ -29,10 +29,83 @@
 	border:1px solid rgb(0,0,0);
 	margin-top: 20px;
 }
-
-
-
-
+.payment-section .payment-main .card .credit{
+	width: 100%;
+	display: inline-block;
+	height: 100px;
+}
+.payment-section .payment-main .card .credit .checkbox{
+	width: 10%;
+	float: left;
+	height: 100%;
+}
+.payment-section .payment-main .card .credit .checkbox input{
+	margin-top: 45%;
+	margin-left: 45%;
+}
+.payment-section .payment-main .card .credit .credit-txt{
+	width: 87%;
+	float: left;
+	height: 100%;
+}
+.payment-section .payment-main .card .credit .credit-txt h5{
+	margin-top: 15px;
+}
+.payment-section .payment-main .card .no{
+	width: 92%;
+	display: inline-block;
+	height: 60px;
+	margin-left: 4%;
+}
+.payment-section .payment-main .card .no input{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.payment-section .payment-main .card .no .card-no{
+	width: 55%;
+	float: left;
+	height: 50px;
+	margin-top: 5px;
+}
+.payment-section .payment-main .card .no .card-no #card-number{
+	width: 100%;
+	height: 50px;
+}
+.payment-section .payment-main .card .no .date{
+	float: left;
+	width: 20%;
+	height: 50px;
+	margin-top: 5px;
+	margin-left: 2%;
+}
+.payment-section .payment-main .card .no .date #date{
+	width: 100%;
+	height: 50px;
+}
+.payment-section .payment-main .card .no .cw{
+	float: left;
+	width: 20%;
+	height: 50px;
+	margin-top: 5px;
+	margin-left: 2%;
+}
+.payment-section .payment-main .card .no .cw #cw{
+	width: 100%;
+	height: 50px;
+}
+.payment-section .payment-main .card .card-name{
+	width: 91%;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 4%;
+}
+.payment-section .payment-main .card .card-name input{
+	width: 99%;
+	height: 50px;
+	padding-left: 1%;
+	font-size: 17px;
+}
 .payment-section .payment-main .paypal{
 	width: 100%;
 	height: 100px;
