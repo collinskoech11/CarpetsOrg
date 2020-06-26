@@ -1,0 +1,102 @@
+.cart-header .payment a{
+	font-weight: bold;
+	color: rgb(0,0,0);
+}
+.payment-section{
+	width: 100%;
+	display: inline-block;
+	background-color: rgb(0,0,0,0.03);
+	height: auto;
+}
+.payment-section .payment-main{
+	width: 62%;
+	float: left;
+	margin-left: 2%;
+	margin-right: 1%;
+}
+.payment-section .payment-main .payment-heading{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid rgb(0,0,0,0.3);
+	margin-top: 70px;
+}
+.payment-section .payment-main .card{
+	width: 100%;
+	height: 250px;
+	border:1px solid rgb(0,0,0);
+	margin-top: 20px;
+}
+
+
+
+
+.payment-section .payment-main .paypal{
+	width: 100%;
+	height: 100px;
+	display: inline-block;
+	border:1px solid rgb(0,0,0);
+	margin-top: 40px;
+}
+.payment-section .payment-main .paypal .checkbox{
+	width: 10%;
+	float: left;
+	height: 50%;
+	padding-top: 40px;
+	align-items: center;
+}
+.payment-section .payment-main .paypal .checkbox input{
+	margin-left: 50%;
+}
+.payment-section .payment-main .paypal .paypal-text{
+	width: 60%;
+	height: 90%;
+	float: left;
+}
+.payment-section .payment-main .paypal .paypal-text h5{
+	padding-top: 4%;
+	padding-bottom: 2%;
+}
+.payment-section .payment-main .paypal .paypal-img{
+	width: 19%;
+	height: 100px;
+	float: right;
+}
+.payment-section .payment-main .paypal .paypal-img img{
+	height: 100px;
+	width: 150px;
+}
+
+
+
+
+.payment-section .payment-main .navigation{
+	width: 70%;
+	height: 40px;
+	display: inline-block;
+	margin-left: 5%;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+.payment-section .payment-main .navigation button{
+	float: left;
+	width: 45%;
+	height: 40px;
+	text-align: center;
+	background-color:rgb(0,0,0,0.03);
+	margin-left: 3%;
+	border:none;
+	font-weight: bold;
+	cursor: pointer;
+}
+.payment-section .payment-main .navigation #next{
+	background-color: navy;
+	color: #fff;
+}
+
+
+
+.payment-section .payment-sub{
+	width: 34%;
+	height: 600px;
+	float: left;
+}
