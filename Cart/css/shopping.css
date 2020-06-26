@@ -10,7 +10,6 @@ body{
 	display: inline-block;
 	height: auto;
 	background-color: rgb(0,0,0,0.03);
-	margin-top: 50px;
 }
 .cart-items .cart-main{
 	width: 55%;
