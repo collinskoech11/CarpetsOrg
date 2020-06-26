@@ -93,7 +93,7 @@ body{
 	width: 90%;
 	height: 50px;
 	margin-left: 5%;
-	border-bottom: 1px solid rgb(0,0,0,0.3)
+	border-bottom: 1px solid rgb(0,0,0,0.3);
 }
 .cart-items .cart-sub .coupon input{
 	width: 100%;
