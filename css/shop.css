@@ -138,6 +138,8 @@
 	font-weight: bold;
 	border: none;
 	cursor: pointer;
+	background-color: navy;
+	color: #fff;
 }
 .footer .copyright{
 	margin-top: 50px;
