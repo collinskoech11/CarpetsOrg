@@ -20,6 +20,9 @@
 	border-bottom: 1px solid rgb(0,0,0,0.3);
 	margin-top: 70px;
 }
+
+
+
 .payment-section .payment-main .card{
 	width: 100%;
 	height: 250px;
@@ -97,6 +100,96 @@
 
 .payment-section .payment-sub{
 	width: 34%;
-	height: 600px;
+	height: 700px;
 	float: left;
+}
+.payment-section .payment-sub .shipping-heading{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid rgb(0,0,0,0.3);
+	margin-top: 70px;
+}
+.payment-section .payment-sub .shipping-item{
+	width: 100%;
+	height: 120px;
+	display: inline-block;
+	margin-top: 20px;
+}
+.payment-section .payment-sub .shipping-item .shipping-img{
+	width: 35%;
+	float: left;
+	border: 1px solid rgb(0,0,0);
+	height: 120px;
+}
+.payment-section .payment-sub .shipping-item .shipping-text{
+	width: 50%;
+	height: 120px;
+	float:left;
+	line-height: 40px;
+	margin-left: 3%;
+}
+.payment-section .payment-sub .coupon{
+	width: 90%;
+	height: 50px;
+	margin-left: 5%;
+	border-bottom: 1px solid rgb(0,0,0,0.3);
+	border-top:  1px solid rgb(0,0,0,0.3);
+	margin-top: 20px;
+}
+.payment-section .payment-sub .coupon input{
+	width: 100%;
+	height: 50px;
+	border: none;
+	background-color: rgb(0,0,0,0.015);
+	font-weight: bold;
+	color: rgb(0,0,0,2);
+}
+.payment-section .payment-sub .summary-txt{
+	display: inline-block;
+	height: 150px;
+	width: 90%;
+	margin-left: 5%;
+}
+.payment-section .payment-sub .summary-txt .summary-txt-title,.summary-txt-charge{
+	height: 150px;
+	width: 50%;
+	float: left;
+	line-height: 50px;
+	border-bottom: 1px solid rgb(0,0,0,0.3);
+}
+.payment-section .payment-sub .summary-txt .summary-txt-charge{
+	text-align: right;
+}
+.payment-section .payment-sub .total{
+	display: inline-block;
+	height: 50px;
+	width: 90%;
+	margin-left: 5%;
+	border-bottom: 1px solid rgb(0,0,0,0.3);
+}
+.payment-section .payment-sub  .total .total-title{
+	width: 50%;
+	float: left;
+	line-height: 50px;
+}
+.payment-section .payment-sub  .total .total-price{
+	width: 50%;
+	float: left;
+	line-height: 50px;
+	text-align: right;
+}
+@media(max-width: 700px){
+	.payment-section{
+		height: 1400px;
+	}
+	.payment-section .payment-main{
+		width: 90%;
+		margin-left: 2%;
+		margin-right: 3%;
+	}
+	.payment-section .payment-sub{
+		width: 70%;
+		margin-left: 14%;
+		margin-right: 14%;
+	}
 }
