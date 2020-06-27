@@ -175,6 +175,10 @@ body{
 .topbar .shop-now p{
 	padding-top: 10px;
 }
+.topbar .shop-now a{
+	color: #fff;
+	text-decoration: none;	
+}
 @media (max-width: 900px){
 	.topbar{
 		height: 550px;
