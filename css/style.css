@@ -171,6 +171,7 @@ body{
 	margin-top: 50px;
 	text-align: center;
 	cursor: pointer;
+	text-decoration: none;
 }
 .topbar .shop-now p{
 	padding-top: 10px;
