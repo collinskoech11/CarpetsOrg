@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shopping cart</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/payment.css">
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
+	<link rel="icon"  href="img/logo.png">
+</head>
+<body>
+	<div class="main">
+		<div class="container">
+<!--header
+=============================================================================-->
+			<div class="header">
+				<div class="logo">
+					<img src="img/logo.png">
+				</div>
+				<div class="buttons">
+					<div class="item">
+						<div class="home">
+							<a href="../index.html"><p>Home</p></a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="shop">
+							<a href="../shop.html"><p>shop</p></a>
+						</div>
+					</div>
+					<div class="item">
+						<div class="featured">
+							<a href="../product.html"><p>product</p></a>
+						</div>
+					</div>
+					
+						<div class="cart">
+							<a href="#">
+								<div class="cart-img">
+									<img src="img/cart.png">
+								</div>
+								<div class="cart-text">
+									<p>cart(0)</p>
+								</div>
+							</a>
+						</div>
+					
+				</div>
+			</div>
+
+
+
+		</div>
+
+
+<!--shopping header
+=========================================================================-->
+		<div class="cart-header">
+			<div class="container">
+				<div class="shopping">
+					<a href="shopping.html"><p>1. Shopping Cart</p></a>
+				</div>
+				<div class="shipping">
+					<a href="shipping.html"><p>2. Shipping Details</p></a>
+				</div>
+				<div class="payment">
+					<a href="#"><p>3. Payment Options</p></a>
+				</div>
+			</div>
+		</div>
+<!-- payment main
+=========================================================================-->
+		<div class="payment-section">
+			<div class="container">
+				<div class="payment-main">
+					<div class="payment-heading">
+						<h3>Payment Method</h3>
+					</div>
+					<div class="card">
+						<div class="credit">
+							<div class="checkbox">
+								<input type="radio" name="checkbox">
+							</div>
+							<div class="credit-txt">
+								<h5>Credit Card</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+							</div>
+						</div>
+						<div class="no">
+							<div class="card-no">
+								<input type="number" name="card" placeholder="0000  0000  0000 0000" id="card-number">
+							</div>
+							<div class="date">
+								<input type="date" name="date" placeholder="MM/YY" id="date">
+							</div>
+							<div class="cw">
+								<input type="text" name="cw" placeholder="CW" id="cw">
+							</div>
+						</div>
+						<div class="card-name">
+							<input type="text" name="card-name" placeholder="Card Holder Name">
+						</div>
+					</div>
+					<div class="paypal">
+						<div class="checkbox">
+							<input type="radio" name="checkbox">
+						</div>
+						<div class="paypal-text">
+							<h5>Paypal</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore </p>
+						</div>
+						<div class="paypal-img">
+							<img src="img/paypal.png">
+						</div>
+					</div>
+					<div class="paypal">
+						<div class="checkbox">
+							<input type="radio" name="checkbox">
+						</div>
+						<div class="paypal-text">
+							<h5>M-pesa</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore </p>
+						</div>
+						<div class="paypal-img">
+							<img src="img/mpesa.png">
+						</div>
+					</div>
+					<div class="navigation">
+						<a href="payment.html"><button id="next">Complete Payment</button></a>
+						<a href="shopping.html"><button>Cancel</button></a>
+					</div>
+				</div>
+				<div class="payment-sub">
+					<div class="shipping-heading">
+						<h3>Summary</h3>
+					</div>
+					<div class="shipping-item">
+						<div class="shipping-img">
+							<img src="">
+						</div>
+						<div class="shipping-text">
+							<h5>PRODUCT NAME</h5>
+							<P>$300</P>
+						</div>
+					</div>
+					<div class="shipping-item">
+						<div class="shipping-img">
+							<img src="">
+						</div>
+						<div class="shipping-text">
+							<h5>PRODUCT NAME</h5>
+							<P>$300</P>
+						</div>
+					</div>
+					<div class="coupon">
+						<input type="text" name="coupon" placeholder="HAVE A VOUCHER ?">
+					</div>
+					<div class="summary-txt">
+						<div class="summary-txt-title">
+							<h4>SUBTOTAL</h4>
+							<h4>SHIPPING</h4>
+							<h4>TAXES</h4>
+						</div>
+						<div class="summary-txt-charge">
+							<p>$600</p>
+							<p>FREE</p>
+							<P>$13</P>
+						</div>
+					</div>
+					<div class="total">
+						<div class="total-title">
+							<h4>TOTAL</h4>
+						</div>
+						<div class="total-price">
+							<p>$613</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.19.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.19.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+</body>
+</html>

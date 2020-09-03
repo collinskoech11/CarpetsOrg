@@ -1,0 +1,36 @@
+.cart-header{
+	width: 100%;
+	display: inline-block;
+	height: 150px;
+	background-color: rgb(0,0,250,0.4);
+	margin-top: 50px;
+	text-align: center;
+}
+.shopping{
+	padding-left: 40px;
+}
+@media(max-width: 1000px){
+	.shopping{
+		padding-left: 0;
+	}
+}
+.shopping,.shipping,.payment {
+	width: 30%;
+	height: 75px;
+	float: left;
+	margin-left: 1%;
+	margin-right:1%;
+	cursor: pointer;
+	color: gray;
+}
+.cart-header a{
+	color: rgb(0,0,0,0.3);
+	text-decoration: none;	
+}
+.cart-header a:active{
+	color: rgb(0,0,0);
+}
+.cart-header p{
+	margin-top: 50px;
+	
+}
